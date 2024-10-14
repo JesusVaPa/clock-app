@@ -3,8 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(65, 63, 63, 0.658));
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(206, 203, 203, 0.658));
+  border-radius: 25px;
+  border-style: double;
+  border-width: 5px;
 }
+
+
 
 #Title {
   font-size: 5rem;
@@ -12,5 +17,14 @@
 
 #Timer {
   font-size: 2rem;
+  transition: color 0.3s, transform 0.3s ease;
+  cursor: default;
 }
+
+#Timer:hover{
+  transform: scale(0.95);
+  color: #38f313;
+}
+
+
 

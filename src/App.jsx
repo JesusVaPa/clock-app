@@ -14,10 +14,10 @@ const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
 return (
 	<>
 		<div>
-			<h1>
+			<h1 id='Title'>
 				Local Live Time
 			</h1>
-			<h2>
+			<h2 id='Timer'>
 				{currentTime}
 			</h2>
 		</div>
